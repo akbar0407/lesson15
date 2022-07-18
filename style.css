@@ -1,0 +1,60 @@
+body {
+    background-image: url(dasBild.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    max-width: 300px;
+    color: brown;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+section {
+    background-color: #54463b;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 15px;
+    width: 30%;
+    margin-top: 30px;
+}
+
+
+.menu {
+    display: flex;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+h3 {
+    color: darkgoldenrod;
+    padding-left: 10px;
+}
+p {
+    color: white;
+    padding-left: 10px;
+}
+
+section.right {
+    /*flex-direction: row-reverse;*/
+}
